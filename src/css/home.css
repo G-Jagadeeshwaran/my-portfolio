@@ -1,0 +1,51 @@
+.home {
+    display: flex;
+    height: 77vh;
+    margin-top: 8rem;
+}
+
+.h-left {
+    display: flex;
+    position: relative;
+    flex: 1;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.h-name {
+    display: flex;
+    flex-direction: column;
+}
+
+.h-name>:nth-child(1) {
+    color: rgb(22, 22, 32);
+    font-weight: bold;
+    font-size: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.h-name>:nth-child(2) {
+    color: blueviolet;
+    font-weight: bold;
+    font-size: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.h-name>:nth-child(3) {
+    font-weight: 400;
+    font-size: 14px;
+    color:  rgb(22, 22, 32);
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.h-button {
+    width: 10rem;
+    height: 3rem;
+    padding: 0.5rem;
+}
+
+
+.h-right {
+    flex: 1;
+}
