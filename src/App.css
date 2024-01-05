@@ -1,5 +1,5 @@
 .App {
-  padding: 0.5rem 3.5rem ;
+  /* padding: 0.5rem 3.5rem ; */
   overflow: hidden;
 }
 
@@ -9,13 +9,13 @@
   color: white;
   font-size: 16px;
   padding: 11px 26px 11px 26px;
-  background: linear-gradient(180deg, rgb(157, 73, 236) 26.71%, blueviolet 99.36%);
+  background: linear-gradient(180deg, #9e4bec 26.71%, #8a2be2 99.36%);
   cursor: pointer;
-  /* box-shadow: 0px 20px 24px 3px rgb(190, 153, 224); */
+  box-shadow: 0px 12px 24px 3px rgb(190, 153, 224);
 }
 
 .button:hover {
   background: white;
   color: blueviolet;
-  border: 3px solid blueviolet;
+  border: 3px solid #8a2be2;
 }

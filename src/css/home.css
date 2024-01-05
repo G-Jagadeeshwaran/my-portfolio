@@ -1,7 +1,8 @@
 .home {
     display: flex;
     height: 77vh;
-    margin-top: 8rem;
+    margin-top: 7rem;
+    padding: 0.5rem 3.5rem ;
 }
 
 .h-left {
@@ -10,6 +11,7 @@
     flex: 1;
     flex-direction: column;
     gap: 4rem;
+    margin-left: 30px;
 }
 
 .h-name {
@@ -45,7 +47,31 @@
     padding: 0.5rem;
 }
 
+.h-icons{
+    margin-top: 2rem;
+    width: 40px;
+    display: flex;
+    gap:3rem;
+    cursor: pointer;
+}
+
 
 .h-right {
     flex: 1;
+}
+
+.h-right>img {
+    display: flex;
+    width: 350px;
+    margin-left: 13rem;
+    border-radius: 600px;
+    margin-top: -30px;
+    animation: imganimation 4s infinite;
+}   
+
+@keyframes imganimation {
+
+    50%{
+        margin-top: -1px;
+    }
 }

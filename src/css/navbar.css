@@ -2,6 +2,7 @@
     height: 10vh;
     display: flex;
     justify-content: space-between;
+    padding: 0.5rem 3.5rem ;
 }
 
 .n-left {

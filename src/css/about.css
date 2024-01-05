@@ -1,0 +1,72 @@
+.about {
+    padding: 0 0 0 3rem;
+    display: flex;
+    height: 90vh;
+    background-image: url(../images/background2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.h-content {
+    text-align: center;
+    margin-left: 18rem;
+}
+
+h1 {
+    margin-top: 2rem;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+}
+
+p {
+    color: white;
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1px;
+}
+
+.h-intro {
+    color: white;
+    margin-top: 5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.i-content>:nth-child(2) {
+    color: white;
+    margin-left: 5rem;
+    letter-spacing: 1px;
+}
+
+.i-content>:nth-child(3) {
+    color: white;
+}
+
+.education {
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.education>:nth-child(1) {
+    margin-top: 4rem;
+    letter-spacing: 1px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.education>:nth-child(2) {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.education>:nth-child(3) {
+    /* margin-left: 1rem; */
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.education>:nth-child(4) {
+    font-size: 14px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
