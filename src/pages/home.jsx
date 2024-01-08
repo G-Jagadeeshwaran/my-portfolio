@@ -1,11 +1,6 @@
 import React from "react";
 import "../css/home.css";
-import Github from "../images/github.svg";
-import Insta from "../images/instagram2.svg";
-import In from "../images/linkedin.svg";
 import Myimage from "../images/my-image.jpg"
-import Emoji from "../images/emoji2.svg";
-import Developer from "../images/developer.svg";
 import Resume from '../Files/Jagadeeshwaran-resume.pdf';
 
 const Home = () => {
@@ -20,22 +15,22 @@ const Home = () => {
                 </div>
 
                 <a href={Resume} download={Resume}>
-                <button className="button h-button">
-                    Download CV
-                </button>
+                    <button className="button h-button">
+                        Download CV
+                    </button>
                 </a>
 
                 <div className="h-icons">
-                    <img src={Github} alt="Image not shown"/>
-                    <img src={In} alt="Image not shown" />
-                    <img src={Insta} alt="Image not shown" />
+                    <a href="https://github.com/G-Jagadeeshwaran" target="blank"><i class="fa-brands fa-square-github"></i></a>
+                    <a href="https://www.linkedin.com/in/jagadeeshwaran-g-0925922a2/" target="blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/_jagan_210/" target="blank"><i class="fa-brands fa-square-instagram"></i></a>
                 </div>
             </div>
 
             <div className="h-right">
-                    <img src={Myimage} alt="" />               
+                <img src={Myimage} alt="" />
             </div>
-            
+
         </div>
     )
 }

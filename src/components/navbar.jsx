@@ -6,7 +6,6 @@ const Navbar = () => {
         <div className="n-wrapper">
             <div className="n-left">
                 <div className="n-name">Portfolio</div>
-                <span>toogle</span>
 
             </div>
 

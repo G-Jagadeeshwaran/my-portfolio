@@ -17,6 +17,11 @@
     font-weight: bold;
 }
 
+.n-name::first-letter{
+    color: blueviolet;
+    font-size: 30px;
+}
+
 .n-right {
     display: flex;
     flex: 1;

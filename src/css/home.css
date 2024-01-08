@@ -14,6 +14,7 @@
     margin-left: 30px;
 }
 
+
 .h-name {
     display: flex;
     flex-direction: column;
@@ -49,10 +50,14 @@
 
 .h-icons{
     margin-top: 2rem;
-    width: 40px;
     display: flex;
     gap:3rem;
     cursor: pointer;
+}
+
+.h-icons>a,i{
+    font-size: 40px;
+    color: blueviolet;
 }
 
 

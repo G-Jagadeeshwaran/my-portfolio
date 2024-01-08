@@ -1,0 +1,62 @@
+.contact-form {
+    display: flex;
+    height: 77vh;
+    margin-top: 11rem;
+    padding: 0.5rem 3.5rem ;
+}
+
+.c-left {
+    display: flex;
+    position: relative;
+    flex: 1;
+    flex-direction: column;
+    gap: 4rem;
+    margin-left: 30px;
+}
+
+
+.c-name {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    margin-left: 5rem;
+}
+
+.c-name>:nth-child(1) {
+    color: rgb(22, 22, 32);
+    font-weight: bold;
+    font-size: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.c-name>:nth-child(2) {
+    color: blueviolet;
+    font-weight: bold;
+    font-size: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.c-right>form {
+    margin-left: 20rem;
+}
+
+form>input,textarea {
+    width: 300px;
+    height: 25px;
+    padding: 9px;
+    border: 3px solid blueviolet;
+    outline: none;
+    margin-top: 30px;
+    border-radius: 10px ;
+}
+
+form>textarea{
+    height: 50px;
+}
+
+
+.c-btn {
+    margin-top: 30px;
+    outline: none;
+    margin-left: 7.5rem;
+}
