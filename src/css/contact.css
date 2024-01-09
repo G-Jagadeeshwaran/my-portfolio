@@ -60,3 +60,27 @@ form>textarea{
     outline: none;
     margin-left: 7.5rem;
 }
+
+@media screen and (max-width: 480px) {
+    .contact-form {
+        padding: 0 0;
+        height: 80vh;
+    }
+    .c-name {
+        margin-top: -7rem;
+        margin-left: 1.5rem;
+    }
+    .c-name>:nth-child(1){
+        width: 400px;
+        font-size: 35px;
+    }
+    .c-name>:nth-child(2){
+        font-size: 40px;
+        margin-left: 1.8rem;
+    }
+    .c-right>form {
+        margin-left: -24.95rem;
+    }
+    
+
+}

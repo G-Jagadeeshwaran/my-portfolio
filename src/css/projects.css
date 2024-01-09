@@ -32,7 +32,6 @@ h2 {
     margin-left: 86px;
     box-shadow: 0px 0px 30px 20px blueviolet;
     border-radius: 10px;
-
 }
 
 .p-card>img {
@@ -51,4 +50,37 @@ h2 {
 
 .RE {
     margin-left: 141px;
+}
+
+
+@media screen and (max-width: 480px) {
+    .projects{
+        height: 149vh;
+    }
+    .head {
+        margin-left: -0.1rem;
+    }
+    h2 {
+        margin-left: 2px;        
+    }    
+    .p-card {
+        display: block;
+        margin-top: 40px;
+        margin-left: 2.3rem;
+        width: 300px;
+        height: 205px;
+    }
+    .sec-card {
+        height: 220px;
+    }
+    .p-card>img {
+        width: 300px;
+    }
+    .HCJ {
+        margin-left: 3rem;
+    }
+    .RE {
+        margin-left: 7.7rem;
+    }
+
 }

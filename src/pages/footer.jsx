@@ -5,7 +5,7 @@ import footerimg from "../images/footerimg.jpg"
 const Footer = () => {
     return (
         <div className="footer">
-            <img src={footerimg} alt="" style={{ width: '100%' }} />
+            <img src={footerimg} alt="" style={{ width: '100%'}} />
             <div className="f-content">
                 <span>Developed By Jagadeeshwaran</span>
                 <span>Follow me</span>

@@ -2,6 +2,7 @@ import React from "react";
 import "../css/projects.css";
 import Portfolioimg from "../images/portfolio-img.png";
 import Calimg from "../images/calculator-img.png";
+import Loginimg from "../images/login-img.png";
 
 const Projects = () => {
     return (
@@ -16,14 +17,14 @@ const Projects = () => {
                 <p className="RE">REACT</p>
             </div>
 
-            <div className="p-card">
+            <div className="p-card sec-card">
                 <img className="calimg" src={Calimg} alt="" />
                 <p className="HCJ">HTML / CSS / JAVASCRIPT</p>
             </div>
 
-            <div className="p-card">
-                <img src={Portfolioimg} alt="" />
-                <p className="RE">REACT</p>
+            <div className="p-card sec-card">
+                <img src={Loginimg} alt="" />
+                <p className="HCJ">HTML / CSS / JAVASCRIPT</p>
             </div>
 
         </div>

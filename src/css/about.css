@@ -70,3 +70,31 @@ p {
     padding-top: 25px;
     padding-bottom: 10px;
 }
+
+
+@media screen and (max-width: 480px) {
+    .about {
+        margin-top: 15rem;
+        height: 130vh;
+        padding: 0 0 0 0;
+    }
+
+    .h-content {
+        text-align: none;
+        margin-left: 0px;
+        padding-left: -30px;
+    }
+
+    .h-content>p {
+        margin-left: 2px;
+    }
+
+    .h-intro {
+        margin-left: 1px;
+    }
+
+    .i-content>:nth-child(2) {
+        margin-left: 1px;
+    }
+
+}

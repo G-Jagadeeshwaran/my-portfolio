@@ -37,7 +37,7 @@
 ul {
     display: flex;
     gap: 6.5rem;
-    margin-right: 4rem;
+    /* margin-right: 1rem; */
     font-weight: 500;
 }
 
@@ -48,4 +48,18 @@ ul>li:hover {
 
 .n-button {
     flex: 2;
+}
+
+
+@media screen and (max-width: 480px) {
+    .n-left {
+        flex: none;
+    }   
+    .n-right {
+        display: none;
+    }
+    .n-wrapper {
+        padding-left: 1rem;
+    }
+
 }

@@ -24,12 +24,12 @@
     margin-top: 2rem;
 }
 
-.f-content>:nth-child(2){
+.f-content>:nth-child(2) {
     margin-top: 1rem;
     margin-left: 44.5rem;
 }
 
-.f-icons{
+.f-icons {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -37,8 +37,34 @@
     margin-left: 40rem;
 }
 
-.f-icons>i{
+.f-icons>i {
     color: white;
     margin-top: 8rem;
     padding: 20px;
+}
+
+@media screen and (max-width: 480px) {
+    .footer>img {
+        height: 130px;
+    }
+
+    .f-content>span {
+        margin-top: 2.3rem;
+        margin-left: 7.5rem;
+        font-size: 9px;
+    }
+
+    .f-content>:nth-child(2) {
+        margin-top: 0.3rem;
+        margin-left: 10.5rem;
+    }
+
+    .f-icons {
+        margin-top: -2rem;
+        margin-left: 7.5rem;
+    }
+    .f-icons>i {
+        font-size: 10px;
+    }
+
 }

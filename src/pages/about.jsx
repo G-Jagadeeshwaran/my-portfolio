@@ -4,11 +4,11 @@ import "../css/about.css";
 const About = () => {
     return (
 
-        <div className="about">
+        <div className="about" id="About">
             <div className="h-content">
                 <h1>ABOUT</h1>
                 <p>Hi here you can see my qualifications and what i am currently doing 
-                    my education details. <br />And my contacts
+                    my education details <br />And my contact.
                 </p>
                 
                 <div className="i-content">
